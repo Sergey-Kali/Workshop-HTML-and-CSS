@@ -1,0 +1,9 @@
+.footer {
+  height: 145px;
+
+  background-color: #324b29;
+
+  @media screen and (max-width: 550px) {
+    height: 80px;
+  }
+}

@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Решта коду */
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  color: $main-text-color;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+
+  font-weight: 800;
+  font-size: 64px;
+
+  color: #828282;
+
+  @media screen and (max-width: 550px) {
+    font-size: 40px;
+  }
+}
+
+h3 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  text-align: center;
+  margin: 0 auto 70px auto;
+
+  @media screen and (max-width: 550px) {
+    margin: 0 auto 40px auto;
+  }
+}
