@@ -16,7 +16,7 @@
 
 .ebout-us__img-grass {
   position: absolute;
-  top: 42px;
+  top: 30px;
   left: 252px;
 
   @media screen and (max-width: 550px) {
@@ -33,7 +33,7 @@
       rgba(18, 54, 22, 0.6) 0%,
       rgba(39, 123, 47, 0) 100%
     ),
-    url(../../img/about-ua-bacground.jpg), url(5443.jpg);
+    url(./img/about-ua-bacground.jpg);
   background-size: cover;
   background-position: center;
 
